@@ -11,6 +11,6 @@ public class Track extends Barrier {
 
     @Override
     public void doIt(Competition competitor) {
-        competitor.jump(distance);
+        competitor.run(distance);
     }
 }
